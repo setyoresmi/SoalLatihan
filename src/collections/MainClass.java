@@ -61,7 +61,7 @@ public class MainClass {
 		arrays.get(6);
 		long endTimeArray = System.nanoTime();
 		long deltaArrayTime = endTimeArray - startTimeArray;
-		System.out.println("delta array time : "+deltaArrayTime);
+		System.out.println("delta array time : "+deltaArrayTime+" nano seconds");
 		
 		LinkedList<String> lists = new LinkedList<String>();
 		long startTimeLinkedlist = System.nanoTime();
@@ -80,7 +80,7 @@ public class MainClass {
 		lists.get(6);
 		long endTimeLinkedlist = System.nanoTime();
 		long deltaLinkedlistTime = endTimeLinkedlist - startTimeLinkedlist;
-		System.out.println("delta linked list time : "+deltaLinkedlistTime);
+		System.out.println("delta linked list time : "+deltaLinkedlistTime+" nano seconds");
 		
 	}
 }
