@@ -1,9 +1,9 @@
-
-public class CarSale {
+public class CarSale implements Item{
 	private String carName;
 	private float priceList;
 	private float finalCost;
 	private float discount;
+	
 	
 	public CarSale(String carName, float priceList, float discount) {
 		super();
@@ -28,7 +28,6 @@ public class CarSale {
 		return discount;
 	}
 
-	
 	public float countFinalCost() {
 		finalCost = priceList - (priceList*(discount/100));
 		return finalCost;
@@ -44,5 +43,10 @@ public class CarSale {
 		System.out.println("");
 		return super.toString();
 	}
-	
+
+	@Override
+	public float getPrice() {
+		// TODO Auto-generated method stub
+		return countFinalCost();
+	}
 }

@@ -1,5 +1,5 @@
 
-public class PaperclipSale {
+public class PaperclipSale implements Item{
 
 	private String colorClip;
 	private float perBoxPrice;
@@ -43,6 +43,12 @@ public class PaperclipSale {
 		System.out.println("=====================================");
 		System.out.println("");
 		return super.toString();
+	}
+
+	@Override
+	public float getPrice() {
+		// TODO Auto-generated method stub
+		return countFinalCost();
 	}
 	
 }
