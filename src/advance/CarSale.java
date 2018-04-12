@@ -1,3 +1,4 @@
+package advance;
 public class CarSale implements Item{
 	private String carName;
 	private float priceList;

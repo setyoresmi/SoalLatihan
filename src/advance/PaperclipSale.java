@@ -1,3 +1,4 @@
+package advance;
 
 public class PaperclipSale implements Item{
 
