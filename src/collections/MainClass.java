@@ -7,7 +7,7 @@ import java.util.Map;
 import java.util.TreeMap;
 
 public class MainClass {
-	static String testID="A1234";
+	static String testID="A123";
 	
 	public static void main(String[] args) {
 		
@@ -38,7 +38,7 @@ public class MainClass {
 		Map<Integer,String> maps = new HashMap<>();
 		maps.put(1, "satu");
 		maps.put(2, "dua");
-		maps.put(30000, "sepuluh ribu");
+		maps.put(10000, "sepuluh ribu");
 		
 		for (Integer value : maps.keySet()) {
 			System.out.println("Key : "+value+",value : "+maps.get(value));
