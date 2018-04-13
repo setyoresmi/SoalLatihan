@@ -5,5 +5,4 @@ Project sederhana untuk memahami konsep dalam pemrograman Java :
 - Interface
 - Abstract Class
 - Override
-
-Bisa dilihat di dalam package
+- Enum
